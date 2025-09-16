@@ -71,6 +71,16 @@
             d="M-260 880 C -20 860 220 740 460 800 C 720 860 940 1100 1200 900 C 1440 720 1680 980 1940 820 C 2180 680 2360 860 2540 760"
           />
         </g>
+        <g class="line line--eight line--soft">
+          <path
+            d="M-240 960 C 0 840 220 1020 460 940 C 720 850 940 1100 1200 980 C 1480 840 1680 1080 1980 960 C 2200 870 2380 1020 2580 930"
+          />
+        </g>
+        <g class="line line--nine line--trail">
+          <path
+            d="M-300 40 C -80 -40 160 -20 420 60 C 700 150 900 -60 1180 20 C 1400 90 1600 -30 1880 70 C 2100 150 2280 20 2480 110"
+          />
+        </g>
       </svg>
     </div>
 
@@ -85,90 +95,103 @@
         </nav>
       </header>
 
-      <main class="hero" role="main">
-        <div class="profile" data-animate="fade-up">
-          <div class="photo-frame">
-            <img src="img/oleg.png" alt="Portrait of Oleg Kononenko" />
+      <div class="layout__body">
+        <main class="hero" role="main">
+          <div class="profile" data-animate="fade-up">
+            <div class="photo-frame">
+              <img src="img/oleg.png" alt="Portrait of Oleg Kononenko" />
+            </div>
+            <div class="profile__details">
+              <h1 class="profile__name">
+                <span class="lang" data-lang="en">Oleg Kononenko</span>
+                <span class="lang" data-lang="ge">ოლეგ კონონენко</span>
+              </h1>
+              <p class="profile__role">
+                <span class="lang" data-lang="en">
+                  <span class="profile__role-line">Development Director</span>
+                  <span class="profile__role-line">4Service Georgia</span>
+                </span>
+                <span class="lang" data-lang="ge">
+                  <span class="profile__role-line">განვითარების დირექტორი</span>
+                  <span class="profile__role-line">4Service Georgia</span>
+                </span>
+              </p>
+              <a class="profile__email" href="mailto:o.kononenko@4service-group.com">o.kononenko@4service-group.com</a>
+              <a class="profile__cta" href="contact.vcf" download="Oleg-Kononenko.vcf">
+                <span class="profile__cta-label">
+                  <span class="lang" data-lang="en">Add Contact</span>
+                  <span class="lang" data-lang="ge">კონტაქტის დამატება</span>
+                </span>
+                <svg class="profile__cta-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+                  <path d="M10 4a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H5a1 1 0 1 1 0-2h4V5a1 1 0 0 1 1-1Z" />
+                </svg>
+              </a>
+            </div>
           </div>
-          <div class="profile__details">
-            <h1 class="profile__name">
-              <span class="lang" data-lang="en">Oleg Kononenko</span>
-              <span class="lang" data-lang="ge">ოლეგ კონონენკო</span>
-            </h1>
-            <p class="profile__role">
-              <span class="lang" data-lang="en">Development Director, 4Service Georgia</span>
-              <span class="lang" data-lang="ge">განვითარების დირექტორი, 4Service Georgia</span>
-            </p>
-            <a class="profile__email" href="mailto:o.kononenko@4service-group.com">o.kononenko@4service-group.com</a>
-            <a class="profile__cta" href="contact.vcf" download="Oleg-Kononenko.vcf">
-              <span class="lang" data-lang="en">Add Contact</span>
-              <span class="lang" data-lang="ge">კონტაქტის დამატება</span>
-            </a>
-          </div>
-        </div>
-      </main>
+        </main>
 
-      <aside class="socials" aria-label="Social and contact links">
-        <a
-          class="social-link"
-          href="https://wa.me/34609074967"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="WhatsApp"
-        >
-          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-            <path
-              d="M12 2.5A9.5 9.5 0 0 0 3 12.3L3 22l4.8-1.6a9.5 9.5 0 1 0 4.2-17.9Z"
-            />
-            <path
-              d="M9.2 7.9c-.3 0-.6.1-.7.4-.6 1.2-.4 2.7.6 3.9.8 1 2 1.7 3.4 2l.2.1c.5.2 1.1 0 1.5-.3l.8-.7c.2-.2.2-.5.1-.8l-.6-1.4a.6.6 0 0 0-.8-.3l-1 .4c-.6.3-1.2.1-1.5-.4l-.5-.7c-.2-.3-.2-.7.1-1l.3-.5c.1-.3.1-.6-.2-.8l-1.2-.8a1 1 0 0 0-.5-.1Z"
-            />
-          </svg>
-        </a>
-        <a class="social-link" href="tg://resolve?phone=34609074967" aria-label="Telegram">
-          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-            <path
-              d="M21.5 4.7c.2-.8-.5-1.5-1.3-1.3L3.4 9c-.9.3-.9 1.5-.1 1.9l4.5 2 1.7 5c.2.8 1.3.9 1.8.2l2.7-3.5 4.3 2c.7.3 1.5-.1 1.6-.9Z"
-            />
-            <path d="M9.5 12.1 17.6 6 10 13.6Z" />
-          </svg>
-        </a>
-        <a
-          class="social-link"
-          href="https://www.linkedin.com/in/oleg-kononenko-772b2a64/"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="LinkedIn"
-        >
-          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-            <path d="M4.8 3.6a2 2 0 1 1 .1 4.1 2 2 0 0 1-.1-4Z" />
-            <path d="M3.9 9.1h1.9V20H3.9z" />
-            <path
-              d="M9.3 9.1h1.9v1.5c.6-1 1.7-1.7 3-1.7 2 0 3.7 1.4 3.7 4.4V20H16v-6.1c0-1.5-.6-2.3-1.8-2.3s-2.1.9-2.1 2.3V20H9.3Z"
-            />
-          </svg>
-        </a>
-        <a
-          class="social-link"
-          href="https://4service.company/ge/about"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="About company"
-        >
-          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-            <path
-              d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18.2c-1.2-.9-2.2-2.4-2.8-4.2h5.6c-.6 1.8-1.6 3.3-2.8 4.2Zm3.4-6.6H8.6a11 11 0 0 1 0-3.2h6.8a11 11 0 0 1 0 3.2Zm-6-.8c-.2-.7-.3-1.5-.3-2.3 0-.8.1-1.6.3-2.3h5.2c.2.7.3 1.5.3 2.3 0 .8-.1 1.6-.3 2.3Zm-1-6C9.8 4.9 10.8 3.4 12 2.6c1.2.9 2.2 2.4 2.8 4.2H8.4Zm-2 0h-.2a8.2 8.2 0 0 1 4.1-3.6c-.9 1-1.6 2.3-2 3.6ZM5 12a8 8 0 0 1 .3-2.3h2.3a12 12 0 0 0-.1 2.3c0 .8 0 1.6.1 2.3H5.3A8 8 0 0 1 5 12Zm1.3 4.3h1.7c.4 1.3 1.1 2.5 2 3.5a8.2 8.2 0 0 1-3.7-3.5Zm11.4 3.5c.9-1 1.6-2.2 2-3.5h-1.7c-.4 1.3-1.1 2.5-2 3.5a8.2 8.2 0 0 0 1.7-.1Zm2.7-5.8h-2.3c.1-.7.1-1.5.1-2.3 0-.8 0-1.6-.1-2.3h2.3c.1.7.2 1.5.2 2.3 0 .8-.1 1.6-.2 2.3Zm-.4-6h-.2c-.4-1.3-1.1-2.6-2-3.6a8.2 8.2 0 0 1 4.1 3.6Z"
-            />
-          </svg>
-        </a>
-        <a class="social-link" href="tel:+995706070252" aria-label="Call">
-          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
-            <path
-              d="M6.7 3c-.6 0-1 .5-1 1.1a15.6 15.6 0 0 0 4.6 10.8 15.6 15.6 0 0 0 10.8 4.6c.6 0 1.1-.4 1.1-1l-.1-3.4c0-.6-.4-1-1-1l-3-.2a1.4 1.4 0 0 0-1 .4l-1.4 1.4c-2-.4-3.9-1.3-5.4-2.8a9 9 0 0 1-2.8-5.4l1.4-1.4c.3-.3.5-.7.4-1l-.2-3c0-.6-.5-1-1-1Zm0 1.9.1 2.1L6 7.8c-.2.2-.3.6-.3.9a10.7 10.7 0 0 0 3.3 6.7 10.7 10.7 0 0 0 6.7 3.3c.3 0 .7-.1.9-.3l.8-.8 2.1.1.1 2.2a14 14 0 0 1-9.7-4A14 14 0 0 1 6.8 4.9Z"
-            />
-          </svg>
-        </a>
-      </aside>
+        <aside class="socials" aria-label="Social and contact links">
+          <a
+            class="social-link"
+            href="https://wa.me/34609074967"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="WhatsApp"
+          >
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+              <path
+                d="M12 2.5A9.5 9.5 0 0 0 3 12.3L3 22l4.8-1.6a9.5 9.5 0 1 0 4.2-17.9Z"
+              />
+              <path
+                d="M9.2 7.9c-.3 0-.6.1-.7.4-.6 1.2-.4 2.7.6 3.9.8 1 2 1.7 3.4 2l.2.1c.5.2 1.1 0 1.5-.3l.8-.7c.2-.2.2-.5.1-.8l-.6-1.4a.6.6 0 0 0-.8-.3l-1 .4c-.6.3-1.2.1-1.5-.4l-.5-.7c-.2-.3-.2-.7.1-1l.3-.5c.1-.3.1-.6-.2-.8l-1.2-.8a1 1 0 0 0-.5-.1Z"
+              />
+            </svg>
+          </a>
+          <a class="social-link" href="tg://resolve?phone=34609074967" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+              <path
+                d="M21.5 4.7c.2-.8-.5-1.5-1.3-1.3L3.4 9c-.9.3-.9 1.5-.1 1.9l4.5 2 1.7 5c.2.8 1.3.9 1.8.2l2.7-3.5 4.3 2c.7.3 1.5-.1 1.6-.9Z"
+              />
+              <path d="M9.5 12.1 17.6 6 10 13.6Z" />
+            </svg>
+          </a>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/oleg-kononenko-772b2a64/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+              <path d="M4.8 3.6a2 2 0 1 1 .1 4.1 2 2 0 0 1-.1-4Z" />
+              <path d="M3.9 9.1h1.9V20H3.9z" />
+              <path
+                d="M9.3 9.1h1.9v1.5c.6-1 1.7-1.7 3-1.7 2 0 3.7 1.4 3.7 4.4V20H16v-6.1c0-1.5-.6-2.3-1.8-2.3s-2.1.9-2.1 2.3V20H9.3Z"
+              />
+            </svg>
+          </a>
+          <a
+            class="social-link"
+            href="https://4service.company/ge/about"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="About company"
+          >
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+              <path
+                d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18.2c-1.2-.9-2.2-2.4-2.8-4.2h5.6c-.6 1.8-1.6 3.3-2.8 4.2Zm3.4-6.6H8.6a11 11 0 0 1 0-3.2h6.8a11 11 0 0 1 0 3.2Zm-6-.8c-.2-.7-.3-1.5-.3-2.3 0-.8.1-1.6.3-2.3h5.2c.2.7.3 1.5.3 2.3 0 .8-.1 1.6-.3 2.3Zm-1-6C9.8 4.9 10.8 3.4 12 2.6c1.2.9 2.2 2.4 2.8 4.2H8.4Zm-2 0h-.2a8.2 8.2 0 0 1 4.1-3.6c-.9 1-1.6 2.3-2 3.6ZM5 12a8 8 0 0 1 .3-2.3h2.3a12 12 0 0 0-.1 2.3c0 .8 0 1.6.1 2.3H5.3A8 8 0 0 1 5 12Zm1.3 4.3h1.7c.4 1.3 1.1 2.5 2 3.5a8.2 8.2 0 0 1-3.7-3.5Zm11.4 3.5c.9-1 1.6-2.2 2-3.5h-1.7c-.4 1.3-1.1 2.5-2 3.5a8.2 8.2 0 0 0 1.7-.1Zm2.7-5.8h-2.3c.1-.7.1-1.5.1-2.3 0-.8 0-1.6-.1-2.3h2.3c.1.7.2 1.5.2 2.3 0 .8-.1 1.6-.2 2.3Zm-.4-6h-.2c-.4-1.3-1.1-2.6-2-3.6a8.2 8.2 0 0 1 4.1 3.6Z"
+              />
+            </svg>
+          </a>
+          <a class="social-link" href="tel:+995706070252" aria-label="Call">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+              <path
+                d="M6.7 3c-.6 0-1 .5-1 1.1a15.6 15.6 0 0 0 4.6 10.8 15.6 15.6 0 0 0 10.8 4.6c.6 0 1.1-.4 1.1-1l-.1-3.4c0-.6-.4-1-1-1l-3-.2a1.4 1.4 0 0 0-1 .4l-1.4 1.4c-2-.4-3.9-1.3-5.4-2.8a9 9 0 0 1-2.8-5.4l1.4-1.4c.3-.3.5-.7.4-1l-.2-3c0-.6-.5-1-1-1Zm0 1.9.1 2.1L6 7.8c-.2.2-.3.6-.3.9a10.7 10.7 0 0 0 3.3 6.7 10.7 10.7 0 0 0 6.7 3.3c.3 0 .7-.1.9-.3l.8-.8 2.1.1.1 2.2a14 14 0 0 1-9.7-4A14 14 0 0 1 6.8 4.9Z"
+              />
+            </svg>
+          </a>
+        </aside>
+      </div>
     </div>
 
     <script>
