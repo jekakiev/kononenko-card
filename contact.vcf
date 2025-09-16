@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Oleg Kononenko
+N:Kononenko;Oleg;;;
+ORG:4Service Georgia
+EMAIL;TYPE=INTERNET:o.kononenko@4service-group.com
+TEL;TYPE=CELL:+995706070252
+TEL;TYPE=CELL:+34609074967
+URL:https://4service.company/ge/about
+PHOTO;VALUE=URI:img/oleg.png
+END:VCARD
